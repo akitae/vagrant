@@ -18,13 +18,13 @@ git clone git@github.com:noemieleitao/visuel_upjv.git drupal
 vagrant up
 ``` 
 
-##Ajout de la base de donnée
+## Ajout de la base de donnée
 Remplacer la base de donnée crée par la base de donnée présente dans vagrant/drupal/database/my_project.sql
 
 Remarque : si vous utilisez phpmyadmin pour remplacer la base de donnée, il se peut que ce soit refusé du à sa taille. Dans ce cas, compresser avec 
 zip puis réessayer.
 
-#Url
+# Url
 url|utilité
 ---|-------
 http://localhost:8090 | accès au site 
