@@ -13,6 +13,9 @@ git clone https://github.com/noemieleitao/visuel_upjv.git drupal
 Puis exécutez la commande suivante :
 `vagrant up`
 
+Rendez-vous ensuite sur l'url `http://localhost:8090`.  
+Note : si une erreur de permission apparait, actualiser la page.
+
 # Url
 Url|Utilité
 ---|-------
