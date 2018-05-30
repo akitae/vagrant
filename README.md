@@ -1,6 +1,6 @@
 # Mise en place du projet
 
-Cloner les sources du vagrant utilisé pour ce projet :
+Cloner les sources du vagrant utilisées pour ce projet :
 
 `git clone git@github.com:noemieleitao/vagrant.git`
 
@@ -11,18 +11,17 @@ Exécution de vagrant pour obtenir le projet en local :
 ## Vérification de la bonne mise en place du projet
 Deux solutions :
 - à la suite de la commande précédente, un dossier contenant les sources du projet nommé "drupal" se situe à la racine du projet
-- une erreur c'est produite est il faut clonné manuellement le projet. Pour ce cas exécutez les commandes suivantes :
+- une erreur s'est produite, il faut donc clonner manuellement le projet. Dans ce cas exécutez les commandes suivantes :
 ```
 cd vagrant
 git clone git@github.com:noemieleitao/visuel_upjv.git drupal
 vagrant up
 ``` 
 
-## Ajout de la base de donnée
-Remplacer la base de donnée crée par la base de donnée présente dans vagrant/drupal/database/my_project.sql
+## Ajout de la base de données
+Remplacer my_project, la base de données créée, par la base de données présente dans vagrant/drupal/database/my_project.sql
 
-Remarque : si vous utilisez phpmyadmin pour remplacer la base de donnée, il se peut que ce soit refusé du à sa taille. Dans ce cas, compresser avec 
-zip puis réessayer.
+Remarque : si vous utilisez phpmyadmin pour remplacer la base de données, l'importation des données peut bloquer à cause de la taille du fichier dépassant 2 Mo. Dans ce cas, compressez en fichier zip puis réessayer.
 
 # Url
 url|utilité
