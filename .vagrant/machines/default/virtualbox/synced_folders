@@ -1,1 +1,0 @@
-{"virtualbox":{"/var/www":{"create":true,"owner":"www-data","group":"www-data","mount_options":["dmode=775,fmode=664","uid=33","gid=33"],"guestpath":"/var/www","hostpath":"/home/akitae/vagrant/my-drupal-project-2","disabled":false,"__vagrantfile":true}}}
