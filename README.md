@@ -30,8 +30,9 @@ http://localhost:8090 | accès au site
 http://localhost:8090/admin | accès à l'administration du site
 http://localhost:8090/phpmyadmin/ | accès à phpmyadmin
 
-# Identifiant
-
+# Url
+url|utilité
 ---|-------
-Nom d'utilisateur : | my_user
-Mot de passe : | my_password
+http://localhost:8090 | accès au site 
+http://localhost:8090/admin | accès à l'administration du site
+http://localhost:8090/phpmyadmin/ | accès à phpmyadmin
