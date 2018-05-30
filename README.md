@@ -32,5 +32,5 @@ http://localhost:8090/phpmyadmin/ | accès à phpmyadmin
 
 # Identifiant
 ---|-------
-Nom d'utilisateur : my_user
-Mot de passe : my_password
+Nom d'utilisateur : | my_user
+Mot de passe : | my_password
