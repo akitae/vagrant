@@ -2,12 +2,12 @@
 
 Clonez les sources du vagrant utilisées pour ce projet :
 
-`git clone git@github.com:noemieleitao/vagrant.git`
+`git clone https://github.com/noemieleitao/vagrant.git`
 
 Ensuite chargez les sources du projet drupal :
 ```
 cd vagrant
-git clone git@github.com:noemieleitao/visuel_upjv.git drupal
+git clone https://github.com/noemieleitao/visuel_upjv.git drupal
 ```
 
 Puis exécutez la commande suivante :
