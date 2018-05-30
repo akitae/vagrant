@@ -26,7 +26,7 @@ Donnée|Valeur
 Nom d'utilisateur | my_user
 Mot de passe : | my_password
 
-## Vérification de la bonne mise en place du projet
+# Vérification de la bonne mise en place du projet
 
 Dans le cas où vous arrivez sur la page d'installation en accédant au site, cela signifie que la base de données ne s'est pas correctement installée.
 
