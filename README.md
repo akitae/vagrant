@@ -22,6 +22,7 @@ vagrant up
 Remplacer my_project, la base de données créée, par la base de données présente dans vagrant/drupal/database/my_project.sql
 
 Remarque : si vous utilisez phpmyadmin pour remplacer la base de données, l'importation des données peut bloquer à cause de la taille du fichier dépassant 2 Mo. Dans ce cas, compressez en fichier zip puis réessayez.
+De plus pour remplacer la base de données, utilisez le compte root/root pour pouvoir supprimer l'existante
 
 # Url
 url|utilité
@@ -31,8 +32,7 @@ http://localhost:8090/admin | accès à l'administration du site
 http://localhost:8090/phpmyadmin/ | accès à phpmyadmin
 
 # Url
-url|utilité
+|
 ---|-------
-http://localhost:8090 | accès au site 
-http://localhost:8090/admin | accès à l'administration du site
-http://localhost:8090/phpmyadmin/ | accès à phpmyadmin
+Nom d'utilisateur | my_user
+Mot de passe : | my_password
