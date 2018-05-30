@@ -1,16 +1,16 @@
 # Mise en place du projet
 
-Cloner les sources du vagrant utilisé pour ce projet :
+Clonez les sources du vagrant utilisées pour ce projet :
 
 `git clone git@github.com:noemieleitao/vagrant.git`
 
-Ensuite charger les sources du projet drupal :
+Ensuite chargez les sources du projet drupal :
 ```
 cd vagrant
 git clone git@github.com:noemieleitao/visuel_upjv.git drupal
 ```
 
-Puis exécuter la commande suivante :
+Puis exécutez la commande suivante :
 `vagrant up`
 
 # Url
@@ -30,10 +30,12 @@ Mot de passe : | my_password
 
 Dans le cas où vous arrivez sur la page d'installation en accédant au site, cela signifie que la base de données ne s'est pas correctement installée.
 
-Pour remédier à cela connectez-vous à l'accès phpmyadmin avec les identifiants root/root.
+Pour remédier à cela connectez-vous à l'accès phpmyadmin avec les identifiants :
+Nom d'utilisateur | root
+Mot de passe : | root
 
-Supprimer la base de données my_project.
+Supprimez la base de données my_project.
 
-Importer la base de données situé à l'emplacement `vagrant/drupal/database/my_project.sql`.
+Importez la base de données située à l'emplacement `vagrant/drupal/database/my_project.sql`.
 
-Note : Compresser au préalable la base dans un format .zip.
+Note : Compressez au préalable la base dans un format .zip.
