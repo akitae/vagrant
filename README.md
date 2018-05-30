@@ -30,9 +30,9 @@ Mot de passe : | my_password
 
 Dans le cas où vous arrivez sur la page d'installation en accédant au site, cela signifie que la base de données ne s'est pas correctement installée.
 
-Pour remédier à cela connectez-vous à l'accès phpmyadmin avec les identifiants :
-Nom d'utilisateur | root
-Mot de passe : | root
+Pour remédier à cela connectez-vous à l'accès phpmyadmin avec les identifiants :  
+Nom d'utilisateur : root   
+Mot de passe : root  
 
 Supprimez la base de données my_project.
 
